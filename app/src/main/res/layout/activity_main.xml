@@ -7,23 +7,29 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
-    <TextView
+    <EditText
         android:id="@+id/etNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 
-    <TextView
+    <EditText
         android:id="@+id/etApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 
-    <TextView
+    <EditText
         android:id="@+id/etEdad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 
     <Button
         android:id="@+id/btnRegistrar"
